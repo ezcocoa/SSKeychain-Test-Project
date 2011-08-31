@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FC8668140DB69100E4FBE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FC8667140DB69100E4FBE1 /* UIKit.framework */; };
+		10FC866A140DB69100E4FBE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FC8669140DB69100E4FBE1 /* Foundation.framework */; };
+		10FC866C140DB69100E4FBE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FC866B140DB69100E4FBE1 /* CoreGraphics.framework */; };
+		10FC8672140DB69100E4FBE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10FC8670140DB69100E4FBE1 /* InfoPlist.strings */; };
+		10FC8674140DB69100E4FBE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FC8673140DB69100E4FBE1 /* main.m */; };
+		10FC8678140DB69100E4FBE1 /* KeychainTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FC8677140DB69100E4FBE1 /* KeychainTestAppDelegate.m */; };
+		10FC867B140DB69100E4FBE1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10FC8679140DB69100E4FBE1 /* MainWindow.xib */; };
+		10FC8683140DB6AC00E4FBE1 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FC8682140DB6AC00E4FBE1 /* SSKeychain.m */; };
+		10FC8685140DB95400E4FBE1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FC8684140DB95400E4FBE1 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10FC8663140DB69100E4FBE1 /* KeychainTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FC8667140DB69100E4FBE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10FC8669140DB69100E4FBE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10FC866B140DB69100E4FBE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10FC866F140DB69100E4FBE1 /* KeychainTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeychainTest-Info.plist"; sourceTree = "<group>"; };
+		10FC8671140DB69100E4FBE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10FC8673140DB69100E4FBE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10FC8675140DB69100E4FBE1 /* KeychainTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeychainTest-Prefix.pch"; sourceTree = "<group>"; };
+		10FC8676140DB69100E4FBE1 /* KeychainTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeychainTestAppDelegate.h; sourceTree = "<group>"; };
+		10FC8677140DB69100E4FBE1 /* KeychainTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeychainTestAppDelegate.m; sourceTree = "<group>"; };
+		10FC867A140DB69100E4FBE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		10FC8681140DB6AC00E4FBE1 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		10FC8682140DB6AC00E4FBE1 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		10FC8684140DB95400E4FBE1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10FC8660140DB69000E4FBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FC8685140DB95400E4FBE1 /* Security.framework in Frameworks */,
+				10FC8668140DB69100E4FBE1 /* UIKit.framework in Frameworks */,
+				10FC866A140DB69100E4FBE1 /* Foundation.framework in Frameworks */,
+				10FC866C140DB69100E4FBE1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10FC8658140DB69000E4FBE1 = {
+			isa = PBXGroup;
+			children = (
+				10FC8684140DB95400E4FBE1 /* Security.framework */,
+				10FC866D140DB69100E4FBE1 /* KeychainTest */,
+				10FC8666140DB69100E4FBE1 /* Frameworks */,
+				10FC8664140DB69100E4FBE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10FC8664140DB69100E4FBE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10FC8663140DB69100E4FBE1 /* KeychainTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10FC8666140DB69100E4FBE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10FC8667140DB69100E4FBE1 /* UIKit.framework */,
+				10FC8669140DB69100E4FBE1 /* Foundation.framework */,
+				10FC866B140DB69100E4FBE1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10FC866D140DB69100E4FBE1 /* KeychainTest */ = {
+			isa = PBXGroup;
+			children = (
+				10FC8681140DB6AC00E4FBE1 /* SSKeychain.h */,
+				10FC8682140DB6AC00E4FBE1 /* SSKeychain.m */,
+				10FC8676140DB69100E4FBE1 /* KeychainTestAppDelegate.h */,
+				10FC8677140DB69100E4FBE1 /* KeychainTestAppDelegate.m */,
+				10FC8679140DB69100E4FBE1 /* MainWindow.xib */,
+				10FC866E140DB69100E4FBE1 /* Supporting Files */,
+			);
+			path = KeychainTest;
+			sourceTree = "<group>";
+		};
+		10FC866E140DB69100E4FBE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10FC866F140DB69100E4FBE1 /* KeychainTest-Info.plist */,
+				10FC8670140DB69100E4FBE1 /* InfoPlist.strings */,
+				10FC8673140DB69100E4FBE1 /* main.m */,
+				10FC8675140DB69100E4FBE1 /* KeychainTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10FC8662140DB69000E4FBE1 /* KeychainTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FC867E140DB69100E4FBE1 /* Build configuration list for PBXNativeTarget "KeychainTest" */;
+			buildPhases = (
+				10FC865F140DB69000E4FBE1 /* Sources */,
+				10FC8660140DB69000E4FBE1 /* Frameworks */,
+				10FC8661140DB69000E4FBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainTest;
+			productName = KeychainTest;
+			productReference = 10FC8663140DB69100E4FBE1 /* KeychainTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10FC865A140DB69000E4FBE1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 10FC865D140DB69000E4FBE1 /* Build configuration list for PBXProject "KeychainTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10FC8658140DB69000E4FBE1;
+			productRefGroup = 10FC8664140DB69100E4FBE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10FC8662140DB69000E4FBE1 /* KeychainTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10FC8661140DB69000E4FBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FC8672140DB69100E4FBE1 /* InfoPlist.strings in Resources */,
+				10FC867B140DB69100E4FBE1 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10FC865F140DB69000E4FBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10FC8674140DB69100E4FBE1 /* main.m in Sources */,
+				10FC8678140DB69100E4FBE1 /* KeychainTestAppDelegate.m in Sources */,
+				10FC8683140DB6AC00E4FBE1 /* SSKeychain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10FC8670140DB69100E4FBE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FC8671140DB69100E4FBE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10FC8679140DB69100E4FBE1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FC867A140DB69100E4FBE1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10FC867C140DB69100E4FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10FC867D140DB69100E4FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10FC867F140DB69100E4FBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeychainTest/KeychainTest-Prefix.pch";
+				INFOPLIST_FILE = "KeychainTest/KeychainTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10FC8680140DB69100E4FBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeychainTest/KeychainTest-Prefix.pch";
+				INFOPLIST_FILE = "KeychainTest/KeychainTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10FC865D140DB69000E4FBE1 /* Build configuration list for PBXProject "KeychainTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FC867C140DB69100E4FBE1 /* Debug */,
+				10FC867D140DB69100E4FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10FC867E140DB69100E4FBE1 /* Build configuration list for PBXNativeTarget "KeychainTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FC867F140DB69100E4FBE1 /* Debug */,
+				10FC8680140DB69100E4FBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10FC865A140DB69000E4FBE1 /* Project object */;
+}
